@@ -1,24 +1,22 @@
-body{
-    background-color: plum;
+body {
+  background-color: plum;
 }
 
-.navBar li{
-    display: inline-block;
-    
+.navBar li {
+  display: inline-block;
 }
 
-.navBar a{
-    text-decoration: none;
-    color: red;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 25px;
-    float: left;
-
+.navBar a {
+  text-decoration: none;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 25px;
+  float: left;
 }
 
-.navBar{
-    background-color: #333;
-    top: 0;
-    width: 100%;
+.navBar {
+  background-color: #333;
+  top: 0;
+  width: 100%;
 }
