@@ -1,9 +1,12 @@
 body {
-  background-color: rgb(216, 81, 216);
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #b405b4, #d469d8);
 }
 
-.button{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.button {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #fff;
   background-color: #333;
   border-radius: 50%;
@@ -17,7 +20,7 @@ body {
   cursor: pointer;
 }
 
-.button:hover{
+.button:hover {
   color: #3e8e41;
 }
 
@@ -39,7 +42,6 @@ body {
   top: 0;
   width: 100%;
 }
-
 
 /* Dropdown Button */
 .dropbtn {
@@ -63,7 +65,7 @@ body {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -76,30 +78,44 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-table, th, td {
-  border:1px solid black;
+.dropdown-content a:hover {
+  background-color: #ddd;
 }
 
-table { 
-  width:100%;
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
   background-color: #333;
   margin-bottom: 20px;
   color: #fff;
 }
 
-table a{
+table a {
   color: #fff;
   text-decoration: none;
 }
 
-table a:hover{
+table a:hover {
   color: #3e8e41;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-gap: 1em;
 }
